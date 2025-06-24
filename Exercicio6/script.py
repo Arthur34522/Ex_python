@@ -1,0 +1,6 @@
+lado1= input("Digite o lado 1 do quadrado: ")
+lado2= input("Digite o lado 2 do quadrado: ")
+lado1 = float(lado1)
+lado2 = float(lado2)
+perimetro = 2 * (lado1 + lado2)
+print(f"O perímetro do quadrado é: {perimetro:.2f} m")
